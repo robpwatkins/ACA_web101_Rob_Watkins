@@ -33,3 +33,8 @@ hr {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 75;
 }
+
+#blognews-pic {
+  width: 250px;
+  height: 250px;
+}
