@@ -3,7 +3,8 @@
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   border: 2px solid rgb(79, 96, 112);
-  padding: .5%
+  padding: .5%;
+  background-color: rgb(178, 192, 206) !important;
 }
 
 .main-container {
@@ -32,9 +33,7 @@ hr {
 .first-paragraph:hover:first-letter {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 75;
-}
-
-#blognews-pic {
-  width: 250px;
-  height: 250px;
+  border: 1px solid rgb(79, 96, 112);
+  background-color: rgb(178, 192, 206);
+  padding: .5%;
 }
