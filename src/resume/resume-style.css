@@ -1,4 +1,13 @@
+#whole-thing {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-.words {
-    color: green;
+nav {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    padding: 1%;
 }
