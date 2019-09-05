@@ -19,6 +19,11 @@ h1 {
   padding: 1%;
 }
 
+.material-icons {
+  vertical-align: text-bottom;
+  margin-right: 2%;
+}
+
 nav {
   font-size: 11;
   padding: .5%;
