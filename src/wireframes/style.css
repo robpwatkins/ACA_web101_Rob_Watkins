@@ -31,7 +31,7 @@ nav {
 
 .left-column {
   float: left;
-  width: 45%;
+  width: 42%;
   height: 100%;
   padding-left: 5%;
   margin: 0%;
@@ -39,8 +39,9 @@ nav {
 
 .right-column {
   float: right;
-  width: 45%;
+  width: 42%;
   height: 100%;
+  padding-right: 5%;
 }
 
 .align-right {
@@ -58,6 +59,50 @@ ul {
 
 .no-top {
   margin-top: 0%;
+}
+
+.w3-border {
+  vertical-align: text-bottom;
+  height: 5px;
+  border: 2px solid black;
+  float: right;
+  width: 45%;
+}
+
+.w3-black {
+  height: 5px;
+  width: 100%;
+  background-color: black;
+}
+
+.w3-french {
+  height: 5px;
+  width: 85%;
+  background-color: black;
+}
+
+.w3-pig {
+  height: 5px;
+  width: 55%;
+  background-color: black;
+}
+
+.w3-german {
+  height: 5px;
+  width: 55%;
+  background-color: black;
+}
+
+.w3-russian {
+  height: 5px;
+  width: 25%;
+  background-color: black;
+}
+
+.w3-jive {
+  height: 5px;
+  width: 3%;
+  background-color: black;
 }
 
 p {
