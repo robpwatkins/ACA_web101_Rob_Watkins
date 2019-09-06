@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main-container {
@@ -22,9 +23,14 @@ img {
 }
 
 .text-container {
-  padding-left: 5%;
+  padding-left: 7%;
 }
 
+.wordthing {
+  padding-left: 7%;
+  background-color: gray;
+  color: white;
+}
 
 
 
