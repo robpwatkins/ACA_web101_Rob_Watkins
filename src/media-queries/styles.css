@@ -28,11 +28,14 @@ img {
 
 .wordthing {
   padding-left: 7%;
-  background-color: gray;
+  background-color: #5D5D5D;
   color: white;
 }
 
-
+.foot {
+  height: 31%;
+  background-color: #5D5D5D;
+}
 
 
 
@@ -43,11 +46,11 @@ img {
 
 
 /* .main-container .upper-section { */
-  height: 300px;
-  width: 300px;
-  background-color: pink;
-  margin: 10px auto;
-}
+  /* height: 300px; */
+  /* width: 300px; */
+  /* background-color: pink; */
+  /* margin: 10px auto; */
+/* } */
 
 
 
@@ -56,11 +59,18 @@ img {
     display: inline-block;
     background-color: gray;
   }
-
+  .foot {
+    visibility: hidden;
+  }
+}
 @media (min-width: 768px) {
     .main-container .item {
       background-color:red;
     }
+    .foot {
+      visibility: hidden;
+  }
+
 
 @media (min-width: 992px) {
     .main-container .item {
