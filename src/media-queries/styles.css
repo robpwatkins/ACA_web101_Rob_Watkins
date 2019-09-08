@@ -27,18 +27,26 @@ img {
 }
 
 .wordthing {
-  padding-left: 7%;
+  margin-left: 7%;
+  margin-right: 64%;
   background-color: #5D5D5D;
+  color: white;
+
+}
+
+.first-foot {
   color: white;
 }
 
-.foot {
+.second-foot {
+  color: white;
+  float: right;
+}
+
+footer {
   height: 31%;
   background-color: #5D5D5D;
 }
-
-
-
 
 
 
