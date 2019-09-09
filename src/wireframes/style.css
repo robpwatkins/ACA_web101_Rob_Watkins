@@ -1,6 +1,7 @@
 #whole-thing {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
+  margin: auto;
+  width: 45%;
 }
 
 nav {
