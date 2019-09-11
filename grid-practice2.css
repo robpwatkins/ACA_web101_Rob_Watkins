@@ -1,0 +1,30 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2px;
+}
+
+.big {
+    height: 500px;
+    padding: 5px;
+}
+
+.small {
+    grid-auto-columns: minmax(100px, auto);
+}
+
+.big:nth-child(even) {
+    background-color: lavender;
+}
+
+.big:nth-child(odd) {
+    background-color: pink;
+}
+
+.small:nth-child(even) {
+    background-color: lightyellow;
+}
+
+.small:nth-child(odd) {
+    background-color: aliceblue;
+}
