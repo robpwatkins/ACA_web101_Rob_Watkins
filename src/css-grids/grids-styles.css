@@ -6,6 +6,7 @@
 }
 
 body {
+  color: white;
   margin: 0;
   padding: 0;
 }
@@ -23,15 +24,19 @@ body {
   background-color: #FDE04C;
   grid-column: 7/9;
   margin-left: 20%;
-
 }
 
 .the-app {
-  grid-column: 4/9;
-  grid-row: 2/7;
+  grid-column: 4/5;
+  grid-row: 1/2;
 }
 
 .download {
-  grid-column: 7/9;
-  grid-row: 2/7;
+  grid-column: 5/6;
+  grid-row: 1/2;
+}
+
+.button {
+  grid-column: 6/7;
+  grid-row: 1/2;
 }
