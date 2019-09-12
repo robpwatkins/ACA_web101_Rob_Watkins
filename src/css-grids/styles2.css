@@ -64,18 +64,12 @@ body {
     font-size: 150px;
 }
 
-.item8 {
-    display: flex;
-    align-items: flex-end;
-    grid-column: 3 / 5;
-    grid-row: 3 / 4;
-    font-size: 150px;
-    margin-left: 33%;
+.blue {
     color: lightblue;
 }
 
 img {
-    height: 100%;
+    height: auto;
     width: auto;
 }
 
