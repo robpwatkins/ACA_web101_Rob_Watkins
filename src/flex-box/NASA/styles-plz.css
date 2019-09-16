@@ -28,7 +28,6 @@ section {
 
 article {
     width: 270px;
-    /* height: 324px; */
     background-color: rgb(224, 222, 222);
     font-size: 16px;
     font-weight: bold;
@@ -56,13 +55,11 @@ footer {
 .space1 {
     height: 25px;
     background-color: white;
-    /* margin-right: 12%; */
 }
 
 .space2 {
     height: 75px;
     background-color: white;
-    /* margin-right: 12%; */
 }
 
 .dark-space {
