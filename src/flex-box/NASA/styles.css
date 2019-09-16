@@ -4,24 +4,29 @@
   box-sizing: border-box;
 }
 
+.whole-thing {
+  margin: auto;
+  width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
 .main-container {
-  display: flexbox;
-  flex-direction: row;
-  padding: 20px;
+  /* display: flexbox; */
+  /* flex-direction: row; */
+  /* padding: 20px; */
 }
 
 .image-container {
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
   background-image: url("./galaxy.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 450px;
+  height: 477px;
   width: 850px;
 }
 
@@ -37,4 +42,5 @@ footer {
   margin-top: 20px;
   background-color: lightgray;
   height: 324px;
+  width: 850px;
 }
