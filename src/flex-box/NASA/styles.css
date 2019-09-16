@@ -18,16 +18,16 @@ body {
 .image-container {
   display: flex;
   flex-direction: row;
-  background-image: url("./bloomingYes.jpg");
+  background-image: url("./galaxy.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-/* img { */
-  /* width: 100%; */
+  background-size: contain;
+  height: 450px;
+  width: 850px;
 }
 
 p {
+  display: flex;
+  flex-direction: row;
   color: white;
   align-content: center;
   justify-content: center;
