@@ -1,0 +1,40 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flexbox;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  background-image: url("./bloomingYes.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* img { */
+  /* width: 100%; */
+}
+
+p {
+  color: white;
+  align-content: center;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: lightgray;
+  height: 324px;
+}

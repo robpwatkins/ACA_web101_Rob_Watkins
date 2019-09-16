@@ -28,7 +28,7 @@ body {
   width: 300px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 5% repeat(6, 1fr)
+  grid-template-rows: 5% repeat(6, 1fr);
 }
 
 .key, .total-screen {
