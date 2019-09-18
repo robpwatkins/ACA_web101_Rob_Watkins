@@ -110,7 +110,6 @@ span {
 
 .add-item {
     display: flex;
-    flex-direction: row;
     background-color: blue;
     color: white;
     width: 42%;
