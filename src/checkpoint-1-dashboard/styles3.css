@@ -12,12 +12,19 @@ body {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 11% 21% 1fr;
+  grid-template-columns: 4% 1fr 4%;
+  grid-template-rows: 11% 21% 18% repeat(7, 1fr);
   grid-template-areas:
-      "header"
-      "navbar"
-      "main";
+      "header header header"
+      "navbar navbar navbar"
+      "main   main   main"
+      "main   main   main"
+      "main   main   main"
+      "main   main   main"
+      "main   main   main"
+      "main   main   main"
+      "main   main   main"
+      "main   main   main"
 }
 
 .header {
