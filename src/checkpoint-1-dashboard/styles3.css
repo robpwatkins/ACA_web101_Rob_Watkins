@@ -8,31 +8,6 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.header {
-  grid-area: header;
-  background-color: lightblue;
-}
-
-.sidenav {
-  grid-area: sidenav;
-  background-color: lightgray;
-}
-
-.navbar {
-  grid-area: navbar;
-  background-color: pink;
-}
-
-.main {
-  grid-area: main;
-  background-color: lightyellow;
-}
-
-.footer {
-  grid-area: footer;
-  background-color: lavender;
-}
-
 .grid-container {
   height: 100%;
   width: 100%;
@@ -44,6 +19,31 @@ body {
       "navbar navbar navbar"
       "main   main   main"
       "main   main   main"
+}
+
+.header {
+  grid-area: header;
+  background-color: rgb(252, 252, 252);
+}
+
+.sidenav {
+  grid-area: sidenav;
+  background-color: lightgray;
+}
+
+.navbar {
+  grid-area: navbar;
+  background-color: rgb(245, 245, 245);
+}
+
+.main {
+  grid-area: main;
+  background-color: #E5E5E5;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(196, 196, 196);
 }
 
 .header {
@@ -94,17 +94,22 @@ span {
   align-items: center;
   padding-left: 4%;
   width: 325px;
-  border: 1px solid black;
+  border: 1px solid #E5E5E5;
+  border-radius: 2px;
   background-color: white;
+  color: rgb(182, 180, 180)
 }
 
 .mag-glass {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 65px;
-  background-color: blue;
+  width: 67px;
+  border-radius: 2px;
+  background-color: #4272D7;
   color: white;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .navbar-box {
@@ -131,6 +136,7 @@ span {
 
 .fry {
   height: 45px;
+  border: 1px solid lightgray;
   border-radius: 3px;
   margin-right: 10px;
 }
@@ -147,7 +153,7 @@ span {
 
 .add-item {
   display: flex;
-  background-color: blue;
+  background-color: #4272D7;
   color: white;
   width: 155px;
   height: 45px;
@@ -169,61 +175,105 @@ span {
 }
 
 .main-boxes {
+  display: flex;
   border-radius: 10px;
 }
 
 .mainbox1 {
-  background-color: lightgray;
+  background-color: #875AC8;
+}
+
+.graph1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graph-uno {
+  max-width: 40%;
+  height: auto;
 }
 
 .mainbox2 {
-  background-color: pink;
+  background-color: #32E580;
+}
+
+.graph-dos {
+  max-width: 40%;
+  height: auto;
+}
+
+.graph2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainbox3 {
-  background-color: lavender;
+  background-color: #FC5A2D;
+}
+
+.graph3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.old-faithful {
+  max-width: 40%;
+  height: auto;
 }
 
 .mainbox4 {
-  background-color: lightblue;
+  background-color: #9ACE52;
+}
+
+.graph4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bartleby {
+  max-width: 40%;
+  height: auto;
 }
 
 .mainbox5 {
-  background-color: purple;
+  background-color: white;
+  border: 2px solid lightgray;
+}
+
+.graph5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graphy {
+  max-width: 70%;
+  height: auto;
 }
 
 .mainbox6 {
-  background-color: darkblue;
+  background-color: white;
+  border: 2px solid lightgray;
 }
 
+.graph6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.pie {
+  max-width: 55%;
+  height: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-text {
+  display: none;
+}
 
 @media (min-width: 768px) {
   .grid-container {
@@ -231,7 +281,7 @@ span {
       width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 9% 16% 1fr;
+      grid-template-rows: 11% 21% 1fr;
       grid-template-areas:
           "header header"
           "navbar navbar"
@@ -275,13 +325,17 @@ span {
     width: 155px;
   }
 
+  .footer-text {
+    display: none;
+  }
+
 @media (min-width: 992px) {
   .grid-container {
       height: 100%;
       width: 100%;
       display: grid;
-      grid-template-columns: 21% repeat(4, 1fr);
-      grid-template-rows: 9% 12% 27% 1fr 13%;
+      grid-template-columns: 30% repeat(4, 1fr);
+      grid-template-rows: 9% 12% 27% 1fr 9%;
       grid-template-areas:
           "header     navbar  navbar  navbar  navbar"
           "sidenav    main    main    main    main"
@@ -297,16 +351,25 @@ span {
   .sidenav-container {
     font-size: 18px;
     height: 700px;
-    margin-left: 55px;
-    margin-top: 30px;
+    margin-left: 45px;
+    margin-top: 50px;
+  }
+
+  .sidenav-box {
+    display: flex;
   }
 
   .sidenav-item {
-    padding: 16px;
+    padding-left: 16px;
+    padding-bottom: 33px;
+  }
+
+  .dashboard {
+    color: #4272D7;
   }
 
   .sidenav-item1 {
-    color: blue;
+    color: #4272D7;
   }
 
   .dehaze {
@@ -318,28 +381,36 @@ span {
   }
 
   .search-bar-box {
-    margin-left: 40px;
+    margin-left: 0;
+    padding-left: 40px;
     padding-top: 15px;
     padding-bottom: 10px;
-    margin-right: 0;
+    justify-content: space-between;
   }
 
   .navbar-box {
-    margin-left: auto;
     margin-bottom: 25px;
   }
 
   .icon-box {
     padding-top: 30px;
-    padding-left: 0;
-    padding-right: 45px;
+    padding-left: 60;
+    padding-right: 10;
 }
 
   .johndoe {
-    padding-top: 15px;
-    padding-left: 0;
-    padding-right: 20px;
-}
+    margin-right: auto;
+    padding-top: 5x;
+    padding-right: 14px;
+  }
+
+  .johnny-p {
+    display: none;
+  }
+
+  .johnny-con {
+    display: none;
+  }
 
   .top-items {
     height: 50px;
@@ -365,5 +436,13 @@ span {
 
   .mainbox6 {
     grid-column: 3 / 5;
+  }
+
+  .footer-text {
+    display: block;
+    color: rgb(156, 156, 156);
+    font-weight: lighter;
+    text-align: center;
+    line-height: 75px;
   }
 }
