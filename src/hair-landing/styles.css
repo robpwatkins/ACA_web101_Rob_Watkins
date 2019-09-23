@@ -113,10 +113,23 @@ body {
 }
 
 .item1 {
+    display: flex;
     grid-column: 2 / 6;
     grid-row: 2 /3;
     border: 2px solid #5FB3BD;
     background-color: white;
+}
+
+.hair1 {
+    width: 389px;
+}
+
+.main1-text {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 33px;
+    font-weight: bolder;
+    margin-top: 75px;
+    padding: 45px;
 }
 
 .item2 {
@@ -125,10 +138,22 @@ body {
     border: 5px solid #5FB3BD;
 }
 
+.text-container {
+    line-height: 1.6;
+}
+
+.hair2 {
+    width: 100%;
+}
+
 .item3 {
     grid-column: 3 / 4;
     grid-row: 4 / 5;
     border: 5px solid #5FB3BD;
+}
+
+.hair3 {
+    width: 100%;
 }
 
 .item4 {
@@ -137,10 +162,18 @@ body {
     border: 5px solid #5FB3BD;
 }
 
+.hair4 {
+    width: 100%;
+}
+
 .item5 {
     grid-column: 5 / 6;
     grid-row: 4 / 5;
     border: 5px solid #5FB3BD;
+}
+
+.hair5 {
+    width: 100%;
 }
 
 .item6 {
@@ -151,7 +184,6 @@ body {
 }
 
 .nest1 {
-    display: inline-block;
     width: 157px;
     height: 49px;
     background-color: #1D2339;
@@ -159,6 +191,31 @@ body {
         top: -14px;
         left: 17px;
     font-family: 'Dosis', sans-serif;
+}
+
+.hair-flex {
+    display: flex;
+}
+
+.hair-box {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 17px;
+    border: 3px solid #1D2339;
+    border-radius: 4px;
+}
+
+.last-text {
+    margin-left: 22px;
+}
+
+h3 {
+    margin-top: 8px;
+}
+
+.hair6 {
+    width: 100%;
 }
 
 .nest2 {
@@ -179,6 +236,11 @@ body {
     line-height: 49px;
 }
 
+.text-box1 {
+    margin: 15px;
+    margin-top: 25px;
+}
+
 .item7 {
     grid-column: 4 / 6;
     grid-row: 6 / 7;
@@ -186,11 +248,35 @@ body {
     background-color: #519194;
 }
 
+.text-box2 {
+    color: white;
+    margin: 20px;
+}
+
+.ugh {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-left: 325px;
+}
+
 .item8 {
+    display: flex;
     grid-column: 4 / 6;
     grid-row: 7 / 8;
     border: 5px solid #5FB3BD;
     background-color: #519194;
+}
+
+.bald {
+    width: 92%;
+}
+
+.text-box3 {
+    color: white;
+    font-size: 20px;
+    margin: 35px;
+    margin-left: 35px;
 }
 
 .footer-container {
@@ -205,6 +291,7 @@ body {
 }
 
 .footer-box {
+    display: flex;
     width: 185px;
     height: 62px;
     margin-top: 30px;
@@ -212,7 +299,33 @@ body {
     background-color: #387A82;
 }
 
+.social-media {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fa {
+    color: #335F64;
+}
+
 .bottom-bar {
     height: 40px;
     background-color: #EDEDED;
+}
+
+@media (max-width: 375px) {
+    .nav {
+        display: none;
+    }
+
+    .title-box {
+        margin-left: 52px;
+    }
+
+    .item1 {
+        display: none;
+    }
 }
