@@ -330,7 +330,44 @@ h3 {
         margin-left: 52px;
     }
 
+    .main-container {
+        grid-template-columns: 55px 1fr 55px;
+        grid-template-rows: 55px repeat(7, 175px) 275px 215px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .main-item {
+        display: none;
+    }
+
     .item1 {
         display: none;
+    }
+
+    .item2 {
+        display: block;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .item3 {
+        display: block;
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+    }
+
+    .item4 {
+        display: block;
+        grid-column: 2 / 3;
+        grid-row: 6 / 7;
+    }
+
+    .item5 {
+        display: block;
+        grid-column: 2 / 3;
+        grid-row: 8 / 9;
     }
 }
