@@ -1,0 +1,289 @@
+.main-container {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hr1 {
+    border: 2px solid #11B8AB;
+    margin: 0;
+    width: 696px;
+    margin-left: 230px;
+}
+
+.nav {
+    display: flex;
+    margin-left: 230px;
+    width: 700px;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.p1 {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 8px;
+    color: 666666
+}
+
+.item2-div {
+    display: flex;
+    padding-left: 45px;
+    padding-top: 25px;
+}
+
+.hotel {
+    color: #11B8AB;
+}
+
+.nav-item2 {
+    height: 69px;
+    width: 175px;
+    border-bottom: 3px solid #11B8AB;
+}
+
+.material-icons {
+    color: #BBBBBB
+}
+
+.hr2 {
+    margin: 0;
+    margin-left: 230px;
+    width: 698px;
+}
+
+.hotel {
+    color: #11B8AB;
+}
+
+.ex-2 {
+    color: white;
+}
+
+.background {
+    margin-top: 50px;
+    margin-left: 230px;
+    width: 700px;
+    height: 90px;
+    background-color: #00BFBE;
+}
+
+.money {
+    padding-top: 25px;
+    margin-left: 45px;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.493);
+}
+
+.background2 {
+    width: 700px;
+    height: 40px;
+    margin-left: 230px;
+    background-color: #00B5B5;
+}
+
+.sales {
+    margin: 0;
+    margin-left: 45px;
+    line-height: 40px;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.493);
+}
+
+.ex-3-container {
+    display: flex;
+    width: 700px;
+    height: 110px;
+    margin-top: 50px;
+    margin-left: 230px;
+    background-color: #F1F1F1;
+}
+
+.button1 {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+    background-color: #6771E5;
+}
+
+.button2 {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.425), 0 1px 3px rgba(0, 0, 0, 0.356);
+}
+
+.p2 {
+    margin-left: 23px;
+    line-height: 10px;
+}
+
+.p3 {
+    margin-left: 30px;
+    line-height: 10px;
+    color: #6771E5
+}
+
+.ex-4 {
+    display: flex;
+    width: 670px;
+    height: 190px;
+    margin-top: 50px;
+    margin-left: 230px;
+    color: rgb(94, 94, 94);
+    background-color: #F1F1F1;
+    align-items: center;
+    padding: 15px;
+}
+
+.card {
+    width: 215px;
+    height: 160px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 5px 3px 0 rgba(0,0,0,.075);
+}
+
+.card-h {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card-hr {
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 75px;
+    border: 1.5px solid #11B8AB;
+}
+
+.card-h2 {
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.ex-5 {
+    width: 700px;
+    height: 350px;
+    background-color: #f1f1f1;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+.top-text {
+    padding: 30px;
+}
+
+.list-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.list {
+    width: 45%;
+    line-height: 40px;
+    list-style: none;
+}
+
+.list2 {
+    width: 50%;
+    line-height: 40px;
+    list-style: none;
+}
+
+.check {
+    margin-right: 15px;
+    color: #AE98DA;
+}
+
+.check-text {
+    margin-bottom: 85px;
+}
+
+.ex-6 {
+    width: 700px;
+    height: 350px;
+    background-color: #c0bfbf;
+    margin-top: 50px;
+    margin-left: 230px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.top-box {
+    width: 530px;
+    height: 65px;
+    margin-left: 75px;
+    padding-left: 20px;
+    background-color: white;
+    line-height: 65px;
+}
+
+.bottom-box {
+    width: 510px;
+    height: 215px;
+    margin-left: 75px;
+    padding: 20px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+
+.button-box {
+    display: flex;
+}
+
+.red-button {
+    width: 110px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 250px;
+    color: white;
+    background-color: #CF6D62;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cancel {
+    margin-top: 50px;
+    margin-left: 30px;
+    color: black;
+}
+
+.ex-7 {
+    width: 700px;
+    height: 300px;
+    background-color: #f1f1f1;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+.lorem-7 {
+    text-align: center;
+    padding-top: 35px;
+    letter-spacing: 1.6;
+    color: rgb(148, 148, 148);
+}
+
+.h2-7 {
+    text-align: center;
+}
+
+.h3-7 {
+    text-align: center;
+    color: rgb(122, 122, 122);
+    line-height: 30px;
+    padding: 25px;
+    padding-top: 0;
+}
