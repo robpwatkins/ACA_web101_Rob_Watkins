@@ -59,6 +59,7 @@ body {
 
 .title-text {
     margin: 0;
+    letter-spacing: 1.3px;
 }
 
 .nav {
@@ -67,6 +68,7 @@ body {
     justify-content: space-between;
     margin-top: 75px;
     margin-left: 89px;
+    letter-spacing: 1.3px;
 }
 
 .nav-item {
@@ -122,6 +124,8 @@ body {
 
 .hair1 {
     width: 389px;
+    height: 356px;
+    margin-left: 1px;
 }
 
 .main1-text {
@@ -232,6 +236,7 @@ h3 {
 .nest-text {
     color: white;
     font-size: 23px;
+    letter-spacing: 1.6px;
     text-align: center;
     line-height: 49px;
 }
