@@ -6,7 +6,7 @@ body {
 
 main {
     height: 450px;
-    background-image: url(./galaxy.jpg);
+    background-image: url(/src/images/galaxy.jpg);
     color: white;
     margin: 20px;
 }
