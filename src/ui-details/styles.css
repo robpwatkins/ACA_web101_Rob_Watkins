@@ -203,6 +203,14 @@
     list-style: none;
 }
 
+.icons {
+    display: flex;
+}
+
+.icon {
+    margin-top: 7px;
+}
+
 .check {
     margin-right: 15px;
     color: #AE98DA;
