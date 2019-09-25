@@ -28,6 +28,7 @@ body {
 
 .nav {
   grid-area: nav;
+  color: #fbeaff;
   background-color: #845ec2;
 }
 
@@ -64,16 +65,43 @@ body {
 
 .nav-left {
   width: 28%;
-  height: 82px;
-  padding-top: 18px;
+  padding-top: 7px;
   line-height: 25px;
   text-align: center;
 }
 
+.about {
+  padding-bottom: 7px;
+}
+
+.portfolio {
+  padding-top: 7px;
+  padding-bottom: 6px;
+}
+
 .nav-right {
   width: 28%;
-  height: 82px;
-  padding-top: 18px;
+  padding-top: 7px;
   line-height: 25px;
   text-align: center;
+}
+
+.contact {
+  padding-bottom: 7px;
+}
+
+.thing {
+  padding-top: 7px;
+  padding-bottom: 6px;
+}
+
+hr {
+  border: 1px solid #fbeaff;
+}
+
+.quote-box {
+  text-align: center;
+  line-height: 75px;
+  font-size: 18px;
+  font-weight: bolder;
 }
