@@ -63,7 +63,6 @@ body {
   display: flex;
   justify-content: space-between;
   color: #fbeaff;
-  /* text-shadow: 0px 2px 4px #302347; */
 }
 
 .nav-left {
@@ -75,6 +74,10 @@ body {
 
 .about {
   padding-bottom: 7px;
+}
+
+.about:hover {
+  text-decoration: underline
 }
 
 .portfolio {
