@@ -13,10 +13,12 @@
 
 .main-box {
     text-align: center;
-    line-height: 500px;
+    line-height: 350px;
 }
 
 .rob-box {
+    height: 230px;
+    padding-top: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +26,6 @@
 
 img {
     height: 235px;
-    margin-top: 150px;
     padding-bottom: 21px;
 }
 
@@ -34,13 +35,13 @@ img {
 }
 
 .name-box2 {
-    line-height: 35px;
+    line-height: 95px;
     font-size: 104px;
 }
 
 .webby {
     width: 530px;
-    margin: 35px auto;
+    margin: 8px auto;
     margin-bottom: 20px;
     border-bottom: 2px solid #04C2C9;
 }
@@ -59,10 +60,16 @@ img {
     line-height: 25px;
 }
 
+.vid-box {
+    width: 555px;
+    height: 300px;
+    margin: 80px auto;
+}
+
 .footer {
     position: fixed;
     left: 0;
-    bottom: 3;
+    bottom: 2;
     height: 55px;
     width: 100%;
     background-color: #1B242F;
@@ -74,23 +81,29 @@ img {
     width: 45%;
     justify-content: space-between;
     align-items: center;
-    padding-left: 55px;
+    padding-left: 35px;
 }
 
 .footer-bar {
     border-bottom: 2px solid #04C2C9;
 }
 
-p {
+a {
     margin: 5px;
 }
 
-p:hover {
+a:hover {
     border-top: 2px solid #04C2C9;
-    padding-bottom: 2px;
+    padding-top: 7px;
+    padding-bottom: 9px;
 }
 
 @media (max-width: 375px) {
+    .top-bar {
+        width: 100%;
+        border-top: 2px solid #04C2C9;
+    }
+    
     .name-box {
         font-size: 115px;
     }
@@ -99,8 +112,13 @@ p:hover {
         height: 30px;
     }
 
+    .name-box {
+        height: 230px;
+    }
+
     img {
         height: 120px;
+        margin-top: 120px;
         padding-bottom: 10px;
         line-height: 50px;
     }
@@ -120,9 +138,31 @@ p:hover {
         margin-top: 10px;
     }
 
+    .vid-box {
+        margin-top: 50px;
+        width: 375px;
+    }
+
+    .jammer {
+        padding: 7px;
+        width: 375px;
+    }
+
     .footer-box {
         width: 375px;
         padding: 5px;
         font-size: 15px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+    .vid-box {
+        margin-top: 105px;
+    }
+
+    .footer-box {
+        width: 100%;
+        padding-left: 75px;
+        padding-right: 75px;
     }
 }
