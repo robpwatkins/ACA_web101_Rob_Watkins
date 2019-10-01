@@ -14,7 +14,6 @@
 .main-box {
     text-align: center;
     line-height: 500px;
-    font-size: 87px;
 }
 
 .rob-box {
@@ -24,23 +23,36 @@
 }
 
 img {
-    height: 148px;
+    height: 235px;
     margin-top: 150px;
+    padding-bottom: 21px;
 }
 
 .name-box {
     height: 350px;
-    font-size: 200px;
+    font-size: 235px;
 }
 
 .name-box2 {
-    line-height: 20px;
+    line-height: 35px;
+    font-size: 104px;
+}
+
+.webby {
+    width: 530px;
+    margin: 35px auto;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #04C2C9;
+}
+
+.webby2 {
+    margin-top: 10px;
 }
 
 .footer {
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 3;
     height: 55px;
     width: 100%;
     background-color: #1B242F;
@@ -53,4 +65,19 @@ img {
     justify-content: space-between;
     align-items: center;
     padding-left: 55px;
+}
+
+.footer-bar {
+    border-bottom: 2px solid #04C2C9;
+}
+
+.whoami {
+    height: 25px;
+    line-height: 15px;
+    font-size: 25px;
+}
+
+p:hover {
+    color: #04C2C9;
+    font-style: italic;
 }
