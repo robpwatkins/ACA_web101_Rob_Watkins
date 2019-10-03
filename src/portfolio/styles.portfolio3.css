@@ -1,0 +1,23 @@
+html {
+  /* height: 100%; */
+}
+
+body {
+  /* min-height: 100vh; */
+}
+
+main {
+  height: auto;
+  background-color: pink;
+}
+
+.box {
+  height: 50px;
+  width: 150px;
+  border: 2px solid lightblue;
+}
+
+footer {
+  height: 5%;
+  background-color: gray;
+}
