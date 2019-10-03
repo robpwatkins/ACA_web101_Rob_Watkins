@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 94%;
+  background-color: pink;
+}
+
+.main-box {
+  width: 550px;
+  height: 400px;
+  margin: 50px auto;
+  border: 2px solid white;
+}
+
+footer {
+  height: 6%;
+  background-color: gray;
+}
+

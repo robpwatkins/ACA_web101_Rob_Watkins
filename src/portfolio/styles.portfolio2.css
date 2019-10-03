@@ -18,8 +18,7 @@ body {
     background-color: #252934;
     font-family: 'Archivo Black', sans-serif;
     color: #FFFFFF;
-    background-image: url(./images/RobMountainPortf.JPG);
-    /* background-image: url(./images/Rob-FirstTry2.JPG); */
+    background-image: url(./images/BackgroundFirstTry.JPG);
     background-size: cover;
 }
 
@@ -87,14 +86,10 @@ img {
     line-height: 25px;
 }
 
-/* .vid-box {
+.vid-box {
     width: 555px;
     height: 300px;
-    margin: 80px auto;
-} */
-
-.jammer {
-    margin-top: 50px;
+    margin: 25px auto;
 }
 
 .footer {
@@ -129,13 +124,14 @@ a:hover {
 }
 
 @media (max-width: 375px) {
-    .main-container {
-        background-position: -300px;
-    }
-
     .top-bar {
         width: 100%;
         border-top: 2px solid #04C2C9;
+    }
+
+    .main-box {
+        line-height: 355px;
+        padding-top: 25px;
     }
 
     .rob-box {
@@ -145,6 +141,7 @@ a:hover {
     .rob-pic {
         position: relative;
             left: -203px;
+            top: -3px
     }
 
     .name-box {
@@ -193,10 +190,6 @@ a:hover {
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
-    .main-container {
-        background-position: -300px;
-    }
-    
     .vid-box {
         margin-top: 105px;
     }
