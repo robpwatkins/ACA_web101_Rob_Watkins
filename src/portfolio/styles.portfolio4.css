@@ -22,7 +22,7 @@ main {
 .main-box {
   width: 550px;
   height: 400px;
-  margin: 55px auto;
+  margin: 55px;
   border: 2px solid white;
 }
 
