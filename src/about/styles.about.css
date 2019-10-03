@@ -57,6 +57,7 @@ html {
   color: white;
   justify-content: center;
   align-items: center;
+  margin-left: 72px;
 }
 
 .material-icons.md-48 {
@@ -64,10 +65,7 @@ html {
   padding-bottom: 7px;
 }
 
-.about-text-box {
-  display: flex;
-  justify-content: space-around;
-  margin: 15px 15px 0px 15px;
+.text-box {
   color: var(--grey);
 }
 
@@ -75,6 +73,7 @@ h2 {
   font-size: 25px;
   font-family: 'Archivo Black', sans-serif;
   font-weight: lighter;
+  margin-top: 15px;
   margin-bottom: 8px;
 }
 
@@ -95,7 +94,7 @@ h4 {
   width: 1050px;
   height: 500px;
   margin: auto;
-  margin-top: 45px;
+  margin-top: 15px;
 }
 
 .pic-and-blurb {
@@ -183,4 +182,26 @@ img {
   background-color: var(--blue);
   width: 100%;
   height: 40px;
+}
+
+@media (max-width: 375px) {
+  .about-box {
+    flex-direction: column;
+    margin-left: 60px;
+  }
+
+  .bottom-box {
+    flex-direction: column;
+    width: 375px;
+  }
+
+  .pic-and-blurb {
+    width: 375px;
+  }
+
+  .skillz {
+    width: 375px;
+    margin-top: 25px;
+    padding-left: 7px;
+  }
 }
