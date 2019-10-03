@@ -25,7 +25,7 @@
   font-family: 'Archivo Black', sans-serif;
   font-size: 45px;
   color: white;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .top-bar {
@@ -42,7 +42,7 @@
 .form-container {
   width: 500px;
   height: 234px;
-  margin: 45px auto;
+  margin: 45px auto 5px;
   background-color: #1E242C;
 }
 
@@ -51,6 +51,10 @@
   line-height: 42px;
   border-bottom: 3px solid #252934;
   text-align: left;
+}
+
+.input3 {
+  height: 150px;
 }
 
 #name::placeholder {
@@ -68,4 +72,62 @@
   width: 500px;
   font-size: 12px;
   color: #96999D;
+}
+
+.button-box {
+  width: 500px;
+  height: 50px;
+  margin: auto;
+}
+
+.button {
+  width: 115px;
+  height: 45px;
+  border: 3px solid white;
+  margin-left: auto;
+  color: white;
+  line-height: 40px;
+}
+
+.footer-box {
+  display: flex;
+  width: 320px;
+  height: 55px;
+  margin: 65px auto 35px;
+  justify-content: space-between;
+}
+
+.footer-icon {
+  display: flex;
+  width: 55px;
+  height: 55px;
+  background-color: #262F38;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy {
+  font-family: 'Archivo', sans-serif;
+  color: #535D69;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+span {
+  color: #FB1F79;
+}
+
+@media (max-width: 375px) {
+  .contact {
+    padding-top: 50px;
+  }
+
+  .form-container {
+    width: 375px;
+  }
+
+  .button-box {
+    width: 375px;
+  }
 }
