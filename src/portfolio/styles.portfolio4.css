@@ -12,6 +12,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Archivo', sans-serif;
   font-family: 'Archivo Black', sans-serif;
 }
 
@@ -21,16 +22,13 @@ main {
   background-size: cover;
 }
 
-.main-container {
-  padding-top: 125px;
-}
-
 .overlay {
   height: 100%;
   background-color: #252934c2;
 }
 
 .main-box {
+  padding-top: 125px;
   width: 550px;
   height: 400px;
   margin: auto;
@@ -81,8 +79,8 @@ img {
 
 .vid-box {
   width: 560px;
-  height: 325px;
-  margin: 15px auto;
+  height: 170px;
+  margin: 145px auto;
 }
 
 .jammer {
@@ -107,32 +105,36 @@ footer {
   width: 47%;
   height: 100%;
   padding-left: 5px;
+  font-family: 'Archivo', sans-serif;
   justify-content: space-around;
   align-items: center;
 }
 
 a {
-  margin: 5px;
+  transition: .3s;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #DC1B6A;
+}
+
+a:hover {
+
 }
 
 @media (max-width: 375px) {
-
-.main-container {
-  padding-top: 25px;
-}
-
 .main-box {
   width: 375px;
   height: 350px;
+  padding-top: 25px;
 }
 
 .rob-box {
   width: 375px;
   height: 130px;
   font-size: 150px;
-  padding-left: 13px;
-  /* position: relative;
-    left: 7px; */
+  padding-left: 15px;
 }
 
 img {
@@ -154,7 +156,7 @@ img {
 
 .vid-box {
     width: 375px;
-    margin-top: 0;
+    margin-top: 25px;
   }
 
  .footer-box {
