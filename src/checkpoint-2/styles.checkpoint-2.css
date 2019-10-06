@@ -93,8 +93,39 @@ header, main, footer {
   line-height: 42px
 }
 
-.Tequizer1 {
-  height: 95%;
+.Tequizer {
+  height: 950px;
+}
+
+.flex {
+  display: flex;
+}
+
+.Name {
+  height: 55px;
+}
+
+.GrayBar {
+  margin: 5px;
+  border-bottom: 2px solid #7D868C;
+}
+
+.FlexThis {
+  display: flex;
+}
+
+.WhereToBuy {
+  width: 155px;
+  height: 60px;
+  border: 5px solid #FFD900;
+  box-shadow: 0 0 0 0 black;
+}
+
+.FindABottle {
+  width: 228px;
+  height: 75px;
+  margin: 0 auto 100px;
+  background-color: #FFD900;
 }
 
 footer {
@@ -110,7 +141,7 @@ footer {
   margin: auto;
 }
 
-hr {
+.footer-bar {
   width: 91%;
   margin: 42px auto 32px;
   border-bottom: 4px solid #FFD900;
