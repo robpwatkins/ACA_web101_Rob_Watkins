@@ -99,5 +99,33 @@ header, main, footer {
 
 footer {
   height: 352px;
+  padding-top: 80px;
+  color: #FFD900;
+  font-size: 20px;
+  letter-spacing: 1;
   background-color: #171717;
+}
+
+.footer-booze {
+  margin: auto;
+}
+
+hr {
+  width: 91%;
+  margin: 42px auto 32px;
+  border-bottom: 4px solid #FFD900;
+}
+
+.footer-flex {
+  width: 89%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.social-box {
+  display: flex;
+  width: 150px;
+  margin-top: -10px;
+  justify-content: space-around;
 }
