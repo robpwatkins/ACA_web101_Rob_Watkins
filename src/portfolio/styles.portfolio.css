@@ -16,10 +16,21 @@ body {
   font-family: 'Archivo Black', sans-serif;
 }
 
+article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
 main {
-  height: 94%;
+  flex-grow: 1;
   background-image: url(./images/BackgroundFirstTry.JPG);
   background-size: cover;
+}
+
+header, main, footer {
+  flex-shrink: 0;
 }
 
 .overlay {
@@ -80,7 +91,7 @@ img {
 .vid-box {
   width: 560px;
   height: auto;
-  margin: 145px auto 0;
+  margin: 145px auto 25px;
 }
 
 .jammer {
@@ -88,7 +99,7 @@ img {
 }
 
 footer {
-  height: 6%;
+  height: 60px;
   width: 100%;
   background-color: #1B242F;
 }
