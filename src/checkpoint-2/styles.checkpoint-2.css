@@ -80,7 +80,8 @@ header, main, footer {
 
 .TheGoodJuice {
   margin: auto;
-  height: 65%;
+  width: 700px;
+  height: auto;
 }
 
 .GoodJuiceBlurb {
