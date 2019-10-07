@@ -17,13 +17,8 @@ article {
   align-items: stretch;
 }
 
-.main-container {
-  height: 100%;
-}
-
 header {
   height: 82px;
-  background-color: white;
 }
 
 .header-nav {
