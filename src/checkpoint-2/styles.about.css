@@ -271,6 +271,11 @@ span {
     margin: 80px auto 0;
   }
 
+  .MexMap {
+    max-width: 770px;
+    margin: auto;
+  }
+
   .MexText {
     width: 70%;
     margin: 8px auto 5px;
@@ -297,6 +302,7 @@ span {
   }
   
   .IconsFlex {
+    width: 768px;
     margin: 15px auto 45px;
     padding-left: 105px;
     flex-direction: row;
