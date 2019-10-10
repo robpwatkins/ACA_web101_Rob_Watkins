@@ -17,9 +17,9 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   margin: 100px auto;
-  border: 1px solid lightblue;
+  border: 2px solid white;
 }
 
 .Div {
-  border: 2px solid lightblue;
+  border: 3px solid white;
 }
