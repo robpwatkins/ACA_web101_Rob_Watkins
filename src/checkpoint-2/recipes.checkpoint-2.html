@@ -13,18 +13,27 @@
 <body>
   <article>
     <header>
-        <div class="header-nav">
-            <a href="./landing.checkpoint-2-2.html">OUR TEQUILAS</a>
-            <a href="./about.checkpoint2-2.html">THE STORY</a>
-            <div class="tequila-logo-box">
-              <div class="tequila-logo"><img src="./images/Tequizer.png" alt=""></div>
-            </div>
-            <a class="a1" href="">RECIPES</a>
-            <a href="">WHAT'S NEW</a>
-          </div>
-          <div class="Logo2Box">
-              <div class="Logo2"><img src="./images/Tequizer.png" alt=""></div>
-            </div>
+      <div class="header-nav">
+        <a href="./landing.checkpoint-2-2.html">OUR TEQUILAS</a>
+        <a href="./about.checkpoint2-2.html">THE STORY</a>
+        <div class="tequila-logo-box">
+          <div class="tequila-logo"><img src="./images/Tequizer.png" alt=""></div>
+        </div>
+        <a class="a1" href="">RECIPES</a>
+        <a href="">WHAT'S NEW</a>
+      </div>
+      <div class="ToggleTequizer">
+        <div class="toggle"><i class="fa fa-bars" style="font-size:24px"></i></div>
+        <div class="Logo2Box">
+          <div class="Logo2"><img src="./images/Tequizer.png" alt=""></div>
+        </div>
+      </div>
+      <ul>
+        <a href="./landing.checkpoint-2-2.html">OUR TEQUILAS</a>
+        <a href="./about.checkpoint2-2.html">THE STORY</a>
+        <a  class="a1">RECIPES</a>
+        <a>WHAT'S NEW</a>
+      </ul>
     </header>
     <main>
       <div class="background"></div>
@@ -83,7 +92,7 @@
       <div class="FindABottle">FIND A BOTTLE</div>
     </main>
     <footer>
-        <div class="BackToTop">BACK TO TOP</div>
+      <div class="BackToTop">BACK TO TOP</div>
       <img class="FooterBooze" src="./images/FooterBooze.png" alt="">
       <div class="FooterBarBox">
         <hr class="FooterBar">
@@ -96,9 +105,17 @@
           <div class="icon1"><i class="fa fa-facebook-official" style="font-size:36px"></i></div>
           <div class="icon2"><i class="fa fa-instagram" style="font-size:36px"></i></div>
           <div class="icon3"><i class="fa fa-twitter" style="font-size:36px"></i></div>
-          </div>
         </div>
+      </div>
     </footer>
   </article>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.fa-bars').click(function(){
+        $('ul').toggleClass('active');
+      })
+    })
+  </script>
 </body>
 </html>

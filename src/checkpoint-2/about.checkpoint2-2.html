@@ -13,18 +13,27 @@
 <body>
   <article>
     <header>
-        <div class="header-nav">
-            <a href="./landing.checkpoint-2-2.html">OUR TEQUILAS</a>
-            <a class="a1">THE STORY</a>
-            <div class="tequila-logo-box">
-              <div class="tequila-logo"><img src="./images/Tequizer.png" alt=""></div>
-            </div>
-            <a href="./recipes.checkpoint-2.html">RECIPES</a>
-            <a href="">WHAT'S NEW</a>
-          </div>
-    <div class="Logo2Box">
-      <div class="Logo2"><img src="./images/Tequizer.png" alt=""></div>
-    </div>
+      <div class="header-nav">
+        <a href="./landing.checkpoint-2-2.html">OUR TEQUILAS</a>
+        <a class="a1">THE STORY</a>
+        <div class="tequila-logo-box">
+          <div class="tequila-logo"><img src="./images/Tequizer.png" alt=""></div>
+        </div>
+        <a href="./recipes.checkpoint-2.html">RECIPES</a>
+        <a href="">WHAT'S NEW</a>
+      </div>
+      <div class="ToggleTequizer">
+        <div class="toggle"><i class="fa fa-bars" style="font-size:24px"></i></div>
+        <div class="Logo2Box">
+          <div class="Logo2"><img src="./images/Tequizer.png" alt=""></div>
+        </div>
+      </div>
+      <ul>
+        <a href="./landing.checkpoint-2-2.html">OUR TEQUILAS</a>
+        <a class="a1">THE STORY</a>
+        <a href="./recipes.checkpoint-2.html">RECIPES</a>
+        <a>WHAT'S NEW</a>
+      </ul>
     </header>
     <main>
       <div class="BackgroundBox"></div>
@@ -44,39 +53,39 @@
         <hr class="BlackBar">
         <img src="./images/StartToFinish.png" alt="" class="StartToFinish">
         <div class="IconsFlex">
-            <div class="Icon"><img src="./images/AgaveBlack.png" alt="" class="Blackon"></div>
-            <div class="Text">
-                <p class="TopText">100% AGAVE</p>
-                <p class="BottomText">WE START WITH NOTHING BUT THE FINEST ESTATE-GROWN LOWLANDS BLUE AGAVE.</p>
-            </div>
+          <div class="Icon"><img src="./images/AgaveBlack.png" alt="" class="Blackon"></div>
+          <div class="Text">
+            <p class="TopText">100% AGAVE</p>
+            <p class="BottomText">WE START WITH NOTHING BUT THE FINEST ESTATE-GROWN LOWLANDS BLUE AGAVE.</p>
+          </div>
         </div>
         <div class="IconsFlex">
-            <div class="Icon"><img src="./images/VolcanoBlack.png" alt="" class="Blackon"></div>
-            <div class="Text">
-                <p class="TopText">VOLCANIC SPRING WATER</p>
-                <p class="BottomText">A NATURAL PHENOMENON IN THE AREA, IT DELIVERS A CLEAN, PURE TASTE.</p>
-            </div>
+          <div class="Icon"><img src="./images/VolcanoBlack.png" alt="" class="Blackon"></div>
+          <div class="Text">
+            <p class="TopText">VOLCANIC SPRING WATER</p>
+            <p class="BottomText">A NATURAL PHENOMENON IN THE AREA, IT DELIVERS A CLEAN, PURE TASTE.</p>
+          </div>
         </div>
         <div class="IconsFlex">
-            <div class="Icon"><img src="./images/DropsBlack.png" alt="" class="Blackon"></div>
-            <div class="Text">
-                <p class="TopText">TRIPLE-DISTILLED</p>
-                <p class="BottomText">THE EXTRA DISTILLATION REMOVES IMPURITIES FOR A SMOOTHER, LESS HARSH FINISH.</p>
-            </div>
+          <div class="Icon"><img src="./images/DropsBlack.png" alt="" class="Blackon"></div>
+          <div class="Text">
+            <p class="TopText">TRIPLE-DISTILLED</p>
+            <p class="BottomText">THE EXTRA DISTILLATION REMOVES IMPURITIES FOR A SMOOTHER, LESS HARSH FINISH.</p>
+          </div>
         </div>
         <div class="IconsFlex">
-            <div class="Icon"><img src="./images/FilterBlack.png" alt="" class="Blackon"></div>
-            <div class="Text">
-                <p class="TopText">24-Hour Filtration</p>
-                <p class="BottomText">OUR SLOWER PROCESS PRESERVES THE FULL FLAVOR OF THE AGAVE.</p>
-            </div>
+          <div class="Icon"><img src="./images/FilterBlack.png" alt="" class="Blackon"></div>
+          <div class="Text">
+            <p class="TopText">24-Hour Filtration</p>
+            <p class="BottomText">OUR SLOWER PROCESS PRESERVES THE FULL FLAVOR OF THE AGAVE.</p>
+          </div>
         </div>
         <div class="IconsFlex">
-            <div class="Icon"><img src="./images/BubblesBlack.png" alt="" class="Blackon"></div>
-            <div class="Text">
-                <p class="TopText">OXYGENATION</p>
-                <p class="BottomText">A FINAL TOUCH TO ENHANCE THE TEXTURE FOR A SOFTER, MORE VELVETY FEEL.</p>
-            </div>
+          <div class="Icon"><img src="./images/BubblesBlack.png" alt="" class="Blackon"></div>
+          <div class="Text">
+            <p class="TopText">OXYGENATION</p>
+            <p class="BottomText">A FINAL TOUCH TO ENHANCE THE TEXTURE FOR A SOFTER, MORE VELVETY FEEL.</p>
+          </div>
         </div>
         <div class="FindABottle">FIND A BOTTLE</div>
       </div>
@@ -99,5 +108,13 @@
       </div>
     </footer>
   </article>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.fa-bars').click(function(){
+        $('ul').toggleClass('active');
+      })
+    })
+  </script>
 </body>
 </html>
