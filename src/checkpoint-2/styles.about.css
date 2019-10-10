@@ -329,11 +329,11 @@ span {
   .FindABottle {
     width: 228px;
     height: 75px;
-    margin: 100px auto 488px;
+    margin: 100px auto 452px;
     text-align: center;
     line-height: 77px;
     font-size: 23px;
-    font-weight: bold;
+    font-weight: 600;
     letter-spacing: 1.6;
     background-color: #FFD900;
   }

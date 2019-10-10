@@ -15,16 +15,25 @@
     <header>
       <div class="HeaderNav">
         <a class="a1" href="">OUR TEQUILAS</a>
-        <a href="./checkpoint-2.page-2.html">THE STORY</a>
+        <a href="./about.checkpoint2-2.html">THE STORY</a>
         <div class="tequila-logo-box">
           <div class="Logo"><img src="./images/Tequizer.png" alt=""></div>
         </div>
         <a href="./recipes.checkpoint-2.html">RECIPES</a>
         <a href="">WHAT'S NEW</a>
       </div>
-      <div class="Logo2Box">
-        <div class="Logo2"><img src="./images/Tequizer.png" alt=""></div>
+      <div class="ToggleTequizer">
+        <div class="toggle"><i class="fa fa-bars" style="font-size:24px"></i></div>
+        <div class="Logo2Box">
+          <div class="Logo2"><img src="./images/Tequizer.png" alt=""></div>
+        </div>
       </div>
+      <ul>
+        <a class="a1">OUR TEQUILAS</a>
+        <a href="./about.checkpoint2-2.html">THE STORY</a>
+        <a href="./recipes.checkpoint-2.html">RECIPES</a>
+        <a>WHAT'S NEW</a>
+      </ul>
     </header>
     <main>
       <div class="GoodJuiceBackground">
@@ -128,5 +137,13 @@
       </div>
     </footer>
   </article>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.fa-bars').click(function(){
+        $('ul').toggleClass('active');
+      })
+    })
+  </script>
 </body>
 </html>
