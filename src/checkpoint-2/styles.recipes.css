@@ -250,15 +250,16 @@ span {
   }
 
   .background {
-    height: 36%;
-    margin: 100px 0 0;
-    background-size: contain;
+    height: 46%;
+    margin: 100px auto 0;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   
   .grid-box {
-    height: 40%;
-    width: 100%;
+    height: 500px;
+    width: 765px;
+    margin: auto;
     padding: 5px 25 25px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -349,7 +350,7 @@ span {
   .FindABottle {
     width: 228px;
     height: 75px;
-    margin: 150px auto 280px;
+    margin: 150px auto 10px;
     text-align: center;
     line-height: 77px;
     font-size: 23px;
@@ -360,6 +361,7 @@ span {
 
   footer {
     height: 352px;
+    margin: 88px 0 0 0;
   }
 
   .BackToTop {
