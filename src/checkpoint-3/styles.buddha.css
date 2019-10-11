@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0
+}
+
+.BuddhaBox {
+  width: 100%;
+  height: 100%;
+  padding-top: 200px;
+  text-align: center;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,248,1) 100%);
+
+}
+
+.Buddha {
+  width: 250px;
+  height: auto;
+}
