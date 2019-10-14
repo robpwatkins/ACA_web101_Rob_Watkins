@@ -35,7 +35,7 @@ a {
 
 a:hover {
   cursor: pointer;
-  color: black;
+  color: #252934;
   transform: scale(1.4);
 }
 
