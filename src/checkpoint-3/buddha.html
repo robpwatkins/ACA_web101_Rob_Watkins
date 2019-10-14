@@ -3,17 +3,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Black&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./styles.buddha.css">
   <title>Buddha Blessings</title>
 </head>
 <body>
   <audio id="audio" src="./BuddhaGliss-wav.wav"></audio>
   <div class="BuddhaBox">
+    <div class="Banner">Buddha Blessings</div>
+    <div class="Instructions">Poke Buddha for a blessing, and watch your heart grow!</div>
     <img onclick="playSound()", src="./Buddha.png" alt="" class="Buddha">
-    <div class="Blessings">Blessings:</div>
-    <div class="Counter">0</div>
+    <div class="HeartContainer">
+      <div class="Blessings">Blessings:</div>
+      <div class="Counter">0</div>
+    </div>
   </div>
   
   <script

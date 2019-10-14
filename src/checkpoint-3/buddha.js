@@ -20,3 +20,7 @@ function playSound() {
     sound.currentTime = 0;
     sound.play()
 };
+
+// if($('.Counter').text() === "10") {
+//     $('.HeartContainer').addClass('HeartContainerBigger');
+// }
