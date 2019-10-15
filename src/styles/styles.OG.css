@@ -1,6 +1,6 @@
 body {
     font-family: Spectral, Helvetica, sans-serif;
-    background-image: url(/images/greyBoy.jpg);
+    background-image: url(../images/greyBoy.jpg);
     background-repeat: no-repeat;
     background-size: 1600px 1000px;
     width: 100vw;
