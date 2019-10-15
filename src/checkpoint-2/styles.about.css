@@ -85,9 +85,9 @@ ul .a1 {
 
 .BackgroundBox {
   height: 815px;
-  margin: 36px 0 0 -423px;
+  margin: 36px 0 0 0;
   background-image: url(./images/BigBoi.jpg);
-  background-size: cover;
+  background-position: center;
 }
 
 .Medallion {
@@ -148,8 +148,9 @@ ul .a1 {
 }
 
 .StartToFinish {
-  height: 65px;
-  margin: 31px 0;
+  max-width: 509px;
+  height: auto;
+  margin: 31px auto;
 }
 
 .IconsFlex {
@@ -241,6 +242,20 @@ span {
   cursor: pointer;
 }
 
+@media (min-width: 480px) {
+  .Medallion {
+    position: relative;
+    top: -275px;
+  }
+}
+
+@media (min-width: 600px) {
+  .Medallion {
+    position: relative;
+    top: -375px;
+  }
+}
+
 @media (min-width: 768px) {
   .toggle {
     display: none;
@@ -298,12 +313,11 @@ span {
   }
 
   .BackgroundBox {
-    height: 1600px;
-    margin: 100px 0 0 -825px;
+    margin: 110px 0 0 0;
   }
 
   .Medallion {
-    max-width: 39%;
+    max-width: 300px;
     position: relative;
       top: -470px;
       left: 40px;

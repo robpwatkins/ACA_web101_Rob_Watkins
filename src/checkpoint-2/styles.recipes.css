@@ -82,10 +82,14 @@ ul .a1 {
 }
 
 .background {
-  height: 186px;
-  margin: 36px 0 78px;
-  background-image: url(./images/Perfect+Anytime.png);
-  background-size: cover;
+  max-width: 1081px;
+  margin: 36px 0 78px 0;
+}
+
+.Perfect {
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 .grid-box {
@@ -129,7 +133,7 @@ ul .a1 {
 .FindABottle {
   width: 174px;
   height: 60px;
-  margin: 45px auto;
+  margin: 25px auto;
   text-align: center;
   line-height: 63px;
   font-size: 20px;
@@ -142,7 +146,7 @@ ul .a1 {
 footer {
   height: 432px;
   padding-top: 38px;
-  margin-top: 162px;
+  margin-top: 92px;
   color: #FFD900;
   font-size: 14px;
   letter-spacing: 1;
@@ -250,7 +254,7 @@ span {
   }
 
   .background {
-    height: 46%;
+    /* height: 46%; */
     margin: 100px auto 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -259,7 +263,7 @@ span {
   .grid-box {
     height: 500px;
     width: 765px;
-    margin: auto;
+    margin: 88px auto 0 auto;
     padding: 5px 25 25px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -350,7 +354,7 @@ span {
   .FindABottle {
     width: 228px;
     height: 75px;
-    margin: 150px auto 10px;
+    margin: 15px auto 10px;
     text-align: center;
     line-height: 77px;
     font-size: 23px;
