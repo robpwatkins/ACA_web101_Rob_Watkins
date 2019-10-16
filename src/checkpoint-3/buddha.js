@@ -4,6 +4,7 @@ let sound = document.getElementById('audio');
 $('.Buddha').click(function() {
     count++;
     $('.Counter').html(+count);
+    playSound();
     $('.Buddha').addClass('Poked');
     setTimeout(removeClass, 50);
     checkCount();
