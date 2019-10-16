@@ -8,11 +8,17 @@ $('.Buddha').click(function() {
     count++;
     $('.Counter').html(+count);
     $('.Buddha').addClass('Poked');
-    setTimeout(RemoveClass, 50);
+    setTimeout(removeClass, 50);
 });
 
-function RemoveClass() {
+function removeClass() {
     $('.Buddha').removeClass('Poked');
+};
+
+function addClass() {
+    if ('.Counter' === '10') {
+    ('.HeartContainer').classList.add('.HeartContainerBig');
+    };
 };
 
 function playSound() {
