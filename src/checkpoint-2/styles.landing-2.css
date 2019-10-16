@@ -25,6 +25,10 @@ main {
   flex-grow: 1;
 }
 
+.ScrollLock {
+  overflow: hidden;
+}
+
 .HeaderNav {
   display: none;
 }
@@ -39,6 +43,10 @@ main {
   padding: 7px 0 0 10px;
 }
 
+.ToggleX {
+  padding: 7px 0 0 11px;
+}
+
 .Logo2 {
   width: 97px;
   position: relative;
@@ -48,7 +56,7 @@ main {
 
 ul {
   width: 100%;
-  height: 87vh;
+  height: 91vh;
   margin: 0 auto;
   padding: 220px 0;
   text-align: center;
@@ -59,7 +67,6 @@ ul {
 ul a {
   margin: 15px 0 7px;
   font-size: 25px;
-  background: rgba(255, 255, 255, 0.459);
   transition: .1s ease-in-out;
 }
 
@@ -71,9 +78,24 @@ ul .a1 {
   color: #FFD900;
 }
 
+.bars-active {
+  display: none;
+}
+
+.toggleX {
+  display: none;
+}
+
+.X-active {
+  display: flex;
+  flex-direction: column;
+}
+
 .active {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.979);
 }
 
 .GoodJuiceBackground {
@@ -205,9 +227,14 @@ p {
   margin: 0 auto 117px;
   text-align: center;
   line-height: 63px;
-  font-size: 17px;
+  font-size: 20px;
+  letter-spacing: 1.3;
   background: #FFD900;
   cursor: pointer;
+}
+
+.FindABottle:hover {
+  background: rgba(255, 217, 0, 0.747);
 }
 
 .LastBuy {
@@ -271,10 +298,14 @@ span {
   .toggle {
     display: none;
   }
+
+  .ToggleX {
+    display: none;
+  }
   
   .HeaderNav {
     display: flex;
-    width: 640px;
+    width: 642px;
     height: 92px;
     margin: auto;
     padding-right: 25px;
@@ -283,6 +314,15 @@ span {
     font-weight: bold;
     font-size: 18px;
     letter-spacing: 1.3;
+  }
+
+  .active {
+    display: none;
+  }
+
+  .tequila-logo-box {
+    width: 115px;
+    padding-left: 9.5px;
   }
 
   .Logo {
