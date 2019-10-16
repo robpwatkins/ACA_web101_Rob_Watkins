@@ -169,9 +169,13 @@ ul .a1 {
   border-bottom: 3px solid #000000;
 }
 
-.StartToFinish {
+.StartBox {
   max-width: 509px;
-  height: auto;
+  margin: auto;
+}
+
+.StartToFinish {
+  width: 100%;
   margin: 31px auto;
 }
 
@@ -398,6 +402,7 @@ span {
   }
   
   .StartToFinish {
+    max-width: 509px;
     height: auto;
     margin: 70px auto 55px;
   }
