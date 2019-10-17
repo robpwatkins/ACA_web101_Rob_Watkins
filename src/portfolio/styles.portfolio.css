@@ -2,35 +2,172 @@
   box-sizing: border-box;
 }
 
-body {
+html {
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
-.grid-container {
-  display: grid;
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+main {
+  flex-grow: 1;
+  background-image: url(./images/BackgroundFirstTry.JPG);
+  background-size: cover;
+}
+
+header, main, footer {
+  flex-shrink: 0;
+}
+
+.overlay {
+  height: 100%;
+  background-color: #252934c2;
+}
+
+.main-box {
+  padding-top: 125px;
+  width: 550px;
+  height: 400px;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+.rob-box {
+  display: flex;
+  height: 200px;
+  font-size: 235px;
+  position: relative;
+    left: -7px;
+}
+
+img {
+  height: 225px;
+}
+
+.rob-pic {
+  position: relative;
+    left: -416px;
+    top: -16px;
+}
+
+.watkins-box {
+  font-size: 101px;
+}
+
+.webby {
+  width: 98%;
+  margin: auto;
+  border-bottom: 2px solid #04C2C9;
+}
+
+.webby:nth-of-type(1) {
+  margin-bottom: 15px;
+}
+
+.webby:nth-of-type(2) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.web-dev {
+  font-size: 25px;
+}
+
+.vid-box {
+  width: 560px;
+  height: auto;
+  margin: 145px auto 25px;
+}
+
+.jammer {
+  margin: auto;
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  background-color: #1B242F;
+}
+
+.footer-container {
   width: 100%;
   height: 100%;
-  grid-template-columns: 20% 1fr 20%;
-  grid-template-rows: 20% 35% 1fr;
-  grid-template-areas:
-    "header header  header"
-    "main   main    main"
-    "main   main    main"
+  color: white;
+  border-bottom: 2px solid #04C2C9;
 }
 
-.header {
-  background-color: pink;
+.footer-box {
+  display: flex;
+  width: 35%;
+  height: 100%;
+  padding-left: 5px;
+  font-family: 'Archivo', sans-serif;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.nav {
-  background-color: lightyellow;
+a {
+  transition: .2s;
 }
 
-.main {
-  background-color: lightgrey;
+a:hover {
+  cursor: pointer;
+  color: #DC1B6A;
+  transform: scale(1.4);
 }
 
-.footer {
-  background-color: lavender;
+@media (max-width: 375px) {
+.main-box {
+  width: 375px;
+  height: 350px;
+  padding-top: 25px;
+}
+
+.rob-box {
+  width: 375px;
+  height: 130px;
+  font-size: 150px;
+  padding-left: 15px;
+}
+
+img {
+  height: 150px;
+}
+
+.rob-pic {
+  position: relative;
+    left: -270px;  
+}
+
+.watkins-box {
+  font-size: 65px;
+}
+
+.jammer {
+  width: 375px;
+}
+
+.vid-box {
+    width: 375px;
+    margin-top: 25px;
+  }
+
+ .footer-box {
+   width: 100%;
+ } 
 }
