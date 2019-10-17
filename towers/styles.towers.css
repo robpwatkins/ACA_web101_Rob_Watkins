@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: lightgray;
+}
+
+.title {
+  font-size: 75px;
+  text-align: center;
+  color: gray;
+  padding-top: 45px;;
+}
+
+.column-box {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 45px;
+  justify-content: space-around;
+  background: rgb(211, 211, 211);
+}
+
+[data-row] {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  height: 450px;
+  width: 34px;
+  margin: 25px 0;
+  border: 1px solid rgb(151, 151, 151);
+}
+
+[data-row].red {
+  background-color: #f6c5c5;
+}
+
+[data-row].yellow {
+  background-color: #ffffa9;
+}
+
+[data-row].green {
+  background-color: #baf6ba;
+}
+
+[data-row].blue {
+  background-color: aliceblue;
+}
+
+[data-color] {
+  width: 25px;
+}
+
+[data-color="yellow"] {
+  height: 12px;
+  width: 50px;
+  background-color: yellow;
+}
+
+[data-color="red"] {
+  height: 15px;
+  width: 65px;
+  background-color: red;
+}
+
+[data-color="green"] {
+  height: 18px;
+  width: 75px;
+  background-color: green;
+}
+
+[data-color="blue"] {
+  height: 21px;
+  width: 90px;
+  background-color: blue;
+}
+
+#announce-game-won {
+  font-size: 50px;
+  text-align: center;
+}
