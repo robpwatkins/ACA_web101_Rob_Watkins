@@ -1,13 +1,13 @@
-$('.fa-bars').click(function() {
+$('.toggle').click(function() {
   $('ul').toggleClass('active');
-  $('.toggle').toggleClass('bars-active');
-  $('.toggleX').toggleClass('X-active');
+  $('.toggle').css('display', 'none');
+  $('.toggleX').css('display', 'flex');
   $('body').toggleClass('ScrollLock');
 })
 
-$('.fa-times').click(function() {
+$('.toggleX').click(function() {
   $('ul').toggleClass('active');
-  $('.toggle').toggleClass('bars-active');
-  $('.toggleX').toggleClass('X-active');
+  $('.toggle').css('display', 'flex');
+  $('.toggleX').css('display', 'none');
   $('body').toggleClass('ScrollLock');
 })

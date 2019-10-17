@@ -40,11 +40,16 @@ main {
 }
 
 .Toggle {
+  cursor: pointer;
+  height: 25px;
   padding: 7px 0 0 10px;
 }
 
 .ToggleX {
+  cursor: pointer;
+  height: 25px;
   padding: 7px 0 0 11px;
+  display: none;
 }
 
 .Logo2 {
@@ -77,19 +82,6 @@ ul a:hover {
 
 ul .a1 {
   color: #FFD900;
-}
-
-.bars-active {
-  display: none;
-}
-
-.toggleX {
-  display: none;
-}
-
-.X-active {
-  display: flex;
-  flex-direction: column;
 }
 
 .active {
@@ -288,12 +280,16 @@ span {
 }
 
 @media (min-width: 768px) {
+  .ScrollLock {
+    overflow: scroll;
+  }
+
   .toggle {
-    display: none;
+    display: none !important;
   }
 
   .ToggleX {
-    display: none;
+    display: none !important;
   }
 
   .HeaderNav {
