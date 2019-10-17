@@ -1,0 +1,393 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Teko', sans-serif;
+}
+
+article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+header, main, footer {
+  flex-shrink: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.Header-Nav {
+  display: none;
+}
+
+.ToggleTequizer {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Toggle {
+  padding: 7px 0 0 10px;
+}
+
+.Logo2 {
+  width: 97px;
+  position: relative;
+    right: -49px;
+  cursor: pointer;
+}
+
+ul {
+  width: 100%;
+  height: 87vh;
+  margin: 0 auto;
+  padding: 220px 0;
+  text-align: center;
+  letter-spacing: 1.3;
+  display: none;
+}
+
+ul a {
+  margin: 15px 0 7px;
+  font-size: 25px;
+  background: rgba(255, 255, 255, 0.459);
+  transition: .1s ease-in-out;
+}
+
+ul a:hover {
+  color: #F9D948;
+}
+
+ul .a1 {
+  color: #FFD900;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+}
+
+.Logo2 {
+  width: 97px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.background {
+  height: 186px;
+  margin: 36px 0 78px;
+  background-image: url(./images/Perfect+Anytime.png);
+  background-size: cover;
+}
+
+.grid-box {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 200px);
+  grid-gap: 20px;
+}
+
+.RecipePic {
+  width: 100%;
+  height: auto;
+}
+
+.RecipePicMobile {
+  width: 100%;
+}
+
+.recipe-box1 {
+  display: none;
+}
+
+.recipe-box2 {
+  display: none;
+}
+
+.recipe-box3 {
+  display: none;
+}
+
+.recipe-box4 {
+  display: none;
+}
+
+.recipe-box5 {
+  display: none;
+}
+
+.FindABottle {
+  width: 174px;
+  height: 60px;
+  margin: 45px auto;
+  text-align: center;
+  line-height: 63px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.3;
+  background: #FFD900;
+  cursor: pointer;
+}
+
+footer {
+  height: 432px;
+  padding-top: 38px;
+  margin-top: 162px;
+  color: #FFD900;
+  font-size: 14px;
+  letter-spacing: 1;
+  background-color: #171717;
+}
+
+.BackToTop {
+  cursor: pointer;
+  text-align: center;
+  font-size: 21px;
+  letter-spacing: 1.6;
+  color: white;
+}
+
+.FooterBooze {
+  margin: 63px auto 43px;
+}
+
+.FooterBar {
+  width: 88%;
+  margin: 0 auto;
+  border-bottom: 4px solid #FFD900;
+}
+
+.FooterText {
+  width: 75%;
+  margin: 23px auto 15px;
+  line-height: 30px;
+  letter-spacing: .3;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.SocialBox {
+  width: 125px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .Toggle {
+    display: none;
+  }
+
+  .HeaderNav {
+    display: flex;
+  }
+
+  header {
+    height: 82px;
+  }
+  
+  .header-nav {
+    display: flex;
+    width: 642px;
+    height: 100%;
+    margin: auto;
+    padding-right: 25px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1.3;
+  }
+  
+  .tequila-logo-box {
+    width: 115px;
+    padding-top: 10px;
+    padding-right: 2px;
+  }
+  
+  .tequila-logo {
+    width: 94px;
+    height: 100%;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  a {
+    transition: .1s ease-in-out;
+  }
+  
+  a:hover {
+    cursor: pointer;
+    color: #F9D948;
+  }
+  
+  .a1 {
+    color: #F9D948;
+  }
+
+  .logo2 {
+    display: none;
+  }
+
+  .background {
+    height: 46%;
+    margin: 100px auto 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .grid-box {
+    height: 500px;
+    width: 765px;
+    margin: auto;
+    padding: 5px 25 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr) 42%;
+    grid-gap: 20px;
+  }
+
+  .recipe-box1-mobile {
+    display: none;
+  }
+
+  .recipe-box2-mobile {
+    display: none;
+  }
+  
+  .recipe-box3-mobile {
+    display: none;
+  }
+  
+  .recipe-box4-mobile {
+    display: none;
+  }
+  
+  .recipe-box5-mobile {
+    display: none;
+  }
+  
+  .recipe-box1 {
+    display: block;
+  }
+
+  .recipe-box2 {
+    display: block;
+  }
+
+  .recipe-box3 {
+    display: block;
+  }
+
+  .recipe-box4 {
+    display: block;
+  }
+
+  .recipe-box5 {
+    display: block;
+  }
+
+  .recipe-box1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .RecipePic {
+    width: 100%;
+    height: 100%;
+  }
+
+  .recipe-box1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .recipe-box1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .recipe-box2 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .recipe-box3 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+
+  .recipe-box4 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .recipe-box5 {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+  }
+
+  .FindABottle {
+    width: 228px;
+    height: 75px;
+    margin: 150px auto 10px;
+    text-align: center;
+    line-height: 77px;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1.6;
+    background-color: #FFD900;
+  }
+
+  footer {
+    height: 352px;
+    margin: 88px 0 0 0;
+  }
+
+  .BackToTop {
+    display: none;
+  }
+
+  .FooterBooze {
+    margin: 42px auto
+  }
+
+  .FooterBar {
+    width: 94%;
+  }
+
+  .FooterFlex {
+    display: flex;
+    width: 90%;
+    margin: 27px auto;
+    justify-content: space-between;
+  }
+
+  .FooterText {
+    margin: 0;
+    text-align: start;
+    font-size: 18px;
+  }
+
+
+}

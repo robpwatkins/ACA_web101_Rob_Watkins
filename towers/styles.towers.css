@@ -6,26 +6,35 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
+  background: lightgray;
+}
+
+.title {
+  font-size: 75px;
+  text-align: center;
+  color: gray;
+  padding-top: 45px;;
 }
 
 .column-box {
   width: 800px;
   height: 500px;
   display: flex;
-  margin: 75px auto;
+  margin: 0 auto;
+  padding-top: 45px;
   justify-content: space-around;
-  background: hotpink;
+  background: rgb(211, 211, 211);
 }
 
 [data-row] {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
   align-items: center;
   height: 450px;
   width: 34px;
   margin: 25px 0;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(151, 151, 151);
 }
 
 [data-row].red {
@@ -46,19 +55,12 @@ body, html {
 
 [data-color] {
   width: 25px;
-  /* float: left; */
 }
 
-[data-color="blue"] {
-  height: 9px;
-  width: 40px;
-  background-color: blue;
-}
-
-[data-color="green"] {
+[data-color="yellow"] {
   height: 12px;
   width: 50px;
-  background-color: green;
+  background-color: yellow;
 }
 
 [data-color="red"] {
@@ -67,10 +69,16 @@ body, html {
   background-color: red;
 }
 
-[data-color="yellow"] {
-  height: 20px;
+[data-color="green"] {
+  height: 18px;
   width: 75px;
-  background-color: yellow;
+  background-color: green;
+}
+
+[data-color="blue"] {
+  height: 21px;
+  width: 90px;
+  background-color: blue;
 }
 
 #announce-game-won {

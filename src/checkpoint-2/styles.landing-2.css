@@ -1,0 +1,523 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Teko', sans-serif;
+}
+
+article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+header, main, footer {
+  flex-shrink: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.ScrollLock {
+  overflow: hidden;
+}
+
+.HeaderNav {
+  display: none;
+}
+
+.ToggleTequizer {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Toggle {
+  cursor: pointer;
+  height: 25px;
+  padding: 7px 0 0 12px;
+}
+
+.ToggleX {
+  cursor: pointer;
+  height: 25px;
+  padding: 7px 0 0 10px;
+  display: none;
+}
+
+.Logo2 {
+  width: 97px;
+  position: relative;
+    right: -49px;
+  cursor: pointer;
+}
+
+ul {
+  width: 100%;
+  height: 91vh;
+  margin: 0 auto;
+  padding: 220px 0;
+  text-align: center;
+  letter-spacing: 1.3;
+  display: none;
+}
+
+ul a {
+  margin: 15px 0 7px;
+  font-size: 25px;
+  transition: .1s ease-in-out;
+}
+
+ul a:hover {
+  color: #F9D948;
+}
+
+ul .a1 {
+  color: #FFD900;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.979);
+}
+
+.GoodJuiceBackground {
+  height: auto;
+  margin-top: 19px;
+  padding: 17px 0 36px;
+  background-image: url(./images/TheGoodJuiceBackground.png);
+  background-size: contain;
+}
+
+.GoodJuice {
+  max-width: 98%;
+  height: auto;
+  margin: 0 auto 39px;
+}
+
+.JuiceBlurb {
+  max-width: 90%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  font-size: 21px;
+  letter-spacing: .1;
+  line-height: 24px;
+}
+
+.Main-Container {
+  padding-top: 24px;
+}
+
+.Tequizer {
+  max-width: 42%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.Name {
+  max-width: 42%;
+  height: auto;
+  margin: 2px auto;
+}
+
+.Blurb {
+  max-width: 75%;
+  height: auto;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: .3;
+  line-height: 26px;
+}
+
+.BarBox {
+  margin: 40px auto 35px;
+}
+
+.TequizerBar {
+  width: 88%;
+  margin: 9px auto;
+}
+
+.GrayBar {
+  width: 88%;
+  margin-top: 9px;
+  border-bottom: 3px solid #7D868C;
+}
+
+.GrayBar3 {
+  margin-bottom: 45px;
+}
+
+.IconsAndBlurb {
+  text-align: center;
+  font-size: 20px;
+}
+
+.TeqPic {
+  height: 55px;
+  width: auto;
+  margin: 0 auto 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.SkinnyGuy {
+  width: 155px;
+  margin: 0 auto;
+}
+
+.WhereToBuy {
+  width: 160px;
+  height: 56px;
+  margin: 34px auto 98px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 49px;
+  letter-spacing: 1.6;
+  cursor: pointer;
+  border: 5px solid #FFD900;
+  box-shadow: 0 6px 6px -6px black;
+}
+
+.GreenBar {
+  width: 88%;
+  margin-top: 9px;
+  border-bottom: 3px solid #009944;
+}
+
+.GreenBar3 {
+  margin-bottom: 45px;
+}
+
+.RedBar {
+  width: 88%;
+  margin-top: 9px;
+  border-bottom: 3px solid #C6093B;
+}
+
+.RedBar3 {
+  margin-bottom: 45px;
+}
+
+.FindABottle {
+  width: 174px;
+  height: 60px;
+  margin: 0 auto 117px;
+  text-align: center;
+  line-height: 63px;
+  font-size: 20px;
+  letter-spacing: 1.3;
+  background: #FFD900;
+  cursor: pointer;
+}
+
+.FindABottle:hover {
+  background: rgba(255, 217, 0, 0.747);
+}
+
+.LastBuy {
+  margin: 34px auto 90px;
+}
+
+footer {
+  height: 432px;
+  padding-top: 38px;
+  color: #FFD900;
+  font-size: 14px;
+  letter-spacing: 1;
+  background-color: #171717;
+}
+
+.BackToTop {
+  cursor: pointer;
+  text-align: center;
+  font-size: 21px;
+  letter-spacing: 1.6;
+  color: white;
+}
+
+.FooterBooze {
+  margin: 63px auto 43px;
+}
+
+.FooterBar {
+  width: 88%;
+  margin: 0 auto;
+  border-bottom: 4px solid #FFD900;
+}
+
+.FooterText {
+  width: 75%;
+  margin: 23px auto 15px;
+  line-height: 30px;
+  letter-spacing: .3;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.SocialBox {
+  width: 125px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .ScrollLock {
+    overflow: scroll;
+  }
+
+  .toggle {
+    display: none !important;
+  }
+
+  .ToggleX {
+    display: none !important;
+  }
+  
+  .HeaderNav {
+    display: flex;
+    width: 642px;
+    height: 92px;
+    margin: auto;
+    padding-right: 25px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1.3;
+  }
+
+  .active {
+    display: none;
+  }
+
+  .tequila-logo-box {
+    width: 115px;
+    padding-left: 9.5px;
+  }
+
+  .Logo {
+    cursor: pointer;
+  }
+
+  a {
+    margin-bottom: 10px;
+  }
+
+  .a1 {
+    color: #F9D948;
+  }
+
+  a {
+    transition: .1s ease-in-out;
+  }
+  
+  a:hover {
+    color: #F9D948;
+  }
+
+  .Logo2 {
+    display: none;
+  }
+
+  .GoodJuiceBackground {
+    margin-top: 100px;
+  }
+
+  .GoodJuice {
+    max-width: 603px;
+    height: auto;
+    margin-top: 23px;
+  }
+
+  .JuiceBlurb {
+    max-width: 75%;
+    margin: 52px auto 14px;
+    font-size: 29px;
+    line-height: 33px;
+  }
+
+  .Flexo {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+  }
+
+  .Tequizer {
+    width: auto;
+    height: 625px;
+    margin: 32px 0 0 80px;
+  }
+
+  .Flexo2 {
+    max-width: 700px;
+    height: auto;
+    margin: 40px auto 0px 15px;
+    padding: 35px 55px 0px 35px;
+  }
+
+  .Name {
+    max-width: 65%;
+    margin: 0;
+  }
+
+  .Blurb {
+    max-width: 100%;
+    margin: 30px 0;
+    font-size: 25px;
+    text-align: start;
+  }
+
+  .GrayBar {
+    width: 100%;
+  }
+
+  .IconsAndBlurb {
+    display: flex;
+    margin: -5px 0 10px -5px;
+  }
+
+  .TeqPic {
+    margin: 0;
+  }
+
+  p {
+    margin-left: 10px;
+    font-weight: bold;
+    line-height: 55px;
+  }
+
+  .SkinnyGuy {
+    width: 100%;
+    margin-left: 10px;
+    text-align: start;
+  }
+
+  .WhereToBuy {
+    margin-left: 0;
+  }
+
+  .FlexoMiddle {
+    height: 775px;
+    justify-content: flex-end
+  }
+
+  .OrderBox {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .OrderBox .Tequizer-2 {
+    order: 1;
+  }
+
+  .Flexo2Middle {
+    margin: 116px 0 0 45px;
+    padding: 35px 0px 0px 35px;
+  }
+    
+  .Reposado {
+    max-width: 86%;
+  }
+  
+  .Blurb2 {
+    margin-right: 25px;
+  }
+
+  .GreenBar {
+    width: 92%;
+    margin-left: 0;
+  }
+
+  .Tequizer-2 {
+    margin: 132px 118px 0 0;
+  }
+
+  .FlexoMiddle .WhereToBuy {
+    margin-top: 22px;
+  }
+
+  .FlexoBottom {
+    height: 750px;
+    margin-top: 29px;
+  }
+
+  .Tequizer-3 {
+    margin: 28px 0 0 81px;
+  }
+
+  .RedBar {
+    width: 96%;
+  }
+
+  .FlexoBottom .WhereToBuy {
+    margin-top: 0;
+  }
+
+  .FindABottle {
+    width: 228px;
+    height: 75px;
+    margin: 0 auto 100px;
+    text-align: center;
+    line-height: 77px;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1.6;
+    background-color: #FFD900;
+  }
+
+  footer {
+    height: 352px;
+  }
+
+  .BackToTop {
+    display: none;
+  }
+
+  .FooterBooze {
+    margin: 42px auto
+  }
+
+  .FooterBar {
+    width: 94%;
+  }
+
+  .FooterFlex {
+    display: flex;
+    width: 90%;
+    margin: 27px auto;
+    justify-content: space-between;
+  }
+
+  .FooterText {
+    margin: 0;
+    text-align: start;
+    font-size: 18px;
+  }
+}

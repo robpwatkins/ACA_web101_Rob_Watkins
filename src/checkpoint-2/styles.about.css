@@ -1,0 +1,472 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Teko', sans-serif;
+}
+
+article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+header, main, footer {
+  flex-shrink: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.ScrollLock {
+  overflow: hidden;
+}
+
+.Header-Nav {
+  display: none;
+}
+
+.ToggleTequizer {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Toggle {
+  cursor: pointer;
+  height: 25px;
+  padding: 7px 0 0 12px;
+}
+
+.ToggleX {
+  cursor: pointer;
+  height: 25px;
+  padding: 7px 0 0 10px;
+  display: none;
+}
+
+.Logo2 {
+  width: 97px;
+  position: relative;
+    right: -49px;
+  cursor: pointer;
+}
+
+ul {
+  width: 100%;
+  height: 91vh;
+  margin: 0 auto;
+  padding: 220px 0;
+  text-align: center;
+  letter-spacing: 1.3;
+  display: none;
+}
+
+ul a {
+  margin: 15px 0 7px;
+  font-size: 25px;
+  font-weight: 500;
+  transition: .1s ease-in-out;
+}
+
+ul a:hover {
+  color: #F9D948;
+}
+
+ul .a1 {
+  color: #FFD900;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.952);
+}
+
+.Logo2 {
+  width: 97px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.BackgroundBox {
+  height: 815px;
+  margin: 36px 0 0 0;
+  background-image: url(./images/BigBoi.jpg);
+  background-position: center;
+}
+
+.Medallion {
+  max-width: 42%;
+  height: auto;
+  position: relative;
+    top: -205px;
+    left: 50px;
+}
+
+.BottomHalf {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: -132px 0;
+}
+
+.InMexico {
+  max-width: 100%;
+  height: auto;
+}
+
+.MexText {
+  width: 75%;
+  margin: 0 auto 5px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.MexMap {
+  max-width: 100%;
+  height: auto;
+}
+
+.Blurb {
+  width: 70%;
+  margin: 40px auto;
+  text-align: start;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.3;
+  line-height: 28px;
+}
+
+.MexMapText {
+  margin: 0 0 33px;
+}
+
+.MexMapText:nth-of-type(4) {
+  margin: 0;
+}
+
+.BlackBar {
+  width: 95%;
+  margin: 0 auto 9px;
+  border-bottom: 3px solid #000000;
+}
+
+.StartBox {
+  max-width: 509px;
+  margin: auto;
+}
+
+.StartToFinish {
+  width: 100%;
+  margin: 31px auto;
+}
+
+.IconsFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Blackon {
+  width: 110px;
+  height: auto;
+}
+
+.TopText {
+  font-weight: bold;
+}
+
+.BottomText {
+  width: 80%;
+  margin: 0 auto 5px;
+  font-weight: 500;
+}
+
+.FindABottle {
+  width: 174px;
+  height: 60px;
+  margin: 40px auto 249px;
+  text-align: center;
+  line-height: 63px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.3;
+  background: #FFD900;
+  cursor: pointer;
+}
+
+.FindABottle:hover {
+  background: rgba(255, 217, 0, 0.747);
+}
+
+footer {
+  height: 432px;
+  padding-top: 38px;
+  color: #FFD900;
+  font-size: 14px;
+  letter-spacing: 1;
+  background-color: #171717;
+}
+
+.BackToTop {
+  cursor: pointer;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 1.6;
+  color: white;
+}
+
+.FooterBooze {
+  margin: 63px auto 43px;
+}
+
+.FooterBar {
+  width: 88%;
+  margin: 0 auto;
+  border-bottom: 4px solid #FFD900;
+}
+
+.FooterText {
+  width: 75%;
+  margin: 23px auto 15px;
+  line-height: 30px;
+  letter-spacing: .3;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.SocialBox {
+  width: 125px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa {
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .Medallion {
+    position: relative;
+    top: -275px;
+  }
+}
+
+@media (min-width: 600px) {
+  .Medallion {
+    position: relative;
+    top: -375px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ScrollLock {
+    overflow: scroll;
+  }
+
+  .toggle {
+    display: none !important;
+  }
+
+  .ToggleX {
+    display: none !important;
+  }
+
+  .HeaderNav {
+    display: flex;
+  }
+
+  header {
+    height: 82px;
+  }
+  
+  .header-nav {
+    display: flex;
+    width: 642px;
+    height: 100%;
+    margin: auto;
+    padding-right: 25px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3;
+  }
+
+  .active {
+    display: none;
+  }
+  
+  .tequila-logo-box {
+    width: 115px;
+    padding-top: 10px;
+    padding-right: 2px;
+  }
+  
+  .tequila-logo {
+    width: 94px;
+    height: 100%;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  a {
+    transition: .1s ease-in-out;
+  }
+  
+  a:hover {
+    cursor: pointer;
+    color: #F9D948;
+  }
+  
+  .a1 {
+    color: #F9D948;
+  }
+
+  .logo2 {
+    display: none;
+  }
+
+  .BackgroundBox {
+    margin: 110px 0 0 0;
+  }
+
+  .Medallion {
+    max-width: 300px;
+    position: relative;
+      top: -470px;
+      left: 40px;
+  }
+
+  .BottomHalf {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: -370px 0;
+    background: white;
+  }
+
+  .InMexico {
+    max-width: 100%;
+    height: auto;
+    margin: 80px auto 0;
+  }
+
+  .MexMap {
+    max-width: 770px;
+    margin: auto;
+  }
+
+  .MexText {
+    width: 70%;
+    margin: 8px auto 5px;
+    font-size: 30px;
+    font-weight: 500 !important;
+    line-height: 33px;
+  }
+  
+  .Blurb {
+    width: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 500 !important;
+    letter-spacing: .3;
+  }
+  
+  .MexMapText:nth-of-type(4) {
+    margin: 0 0 40px;
+  }
+  
+  .StartToFinish {
+    max-width: 509px;
+    height: auto;
+    margin: 70px auto 55px;
+  }
+  
+  .IconsFlex {
+    width: 768px;
+    margin: 15px auto 45px;
+    padding-left: 105px;
+    flex-direction: row;
+    text-align: start;
+    letter-spacing: 1.6;
+    line-height: 35px;
+  }
+  
+  .Text {
+    margin-left: 20px;
+    font-size: 26px;
+  }
+
+  .TopText {
+    font-size: 34px;
+  }
+
+  .BottomText {
+    width: 90%;
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .FindABottle {
+    width: 228px;
+    height: 75px;
+    margin: 100px auto 452px;
+    text-align: center;
+    line-height: 77px;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1.6;
+    background-color: #FFD900;
+  }
+  
+  .BackToTop {
+    display: none;
+  }
+
+  footer {
+    height: 352px;
+    margin-top: 18px;
+  }
+
+  .FooterBooze {
+    margin: 42px auto
+  }
+
+  .FooterBar {
+    width: 94%;
+  }
+
+  .FooterFlex {
+    display: flex;
+    width: 90%;
+    margin: 27px auto;
+    justify-content: space-between;
+  }
+
+  .FooterText {
+    margin: 0;
+    text-align: start;
+    font-size: 18px;
+  }
+}
