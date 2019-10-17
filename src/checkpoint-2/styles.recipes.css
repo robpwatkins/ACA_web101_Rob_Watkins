@@ -47,7 +47,7 @@ main {
 .ToggleX {
   cursor: pointer;
   height: 25px;
-  padding: 7px 0 0 11px;
+  padding: 7px 0 0 10px;
   display: none;
 }
   
