@@ -11,3 +11,6 @@ $('.toggleX').click(function() {
   $('.toggleX').css('display', 'none');
   $('body').toggleClass('ScrollLock');
 })
+
+  $('.BackToTop').click(function() {
+    $('html, body').animate({scrollTop:$('.thetop').offset().top}, '1000'); return false});
