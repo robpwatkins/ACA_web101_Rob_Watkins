@@ -25,7 +25,7 @@ article {
 
 main {
   flex-grow: 1;
-  background-image: url(./images/BackgroundFirstTry.JPG);
+  background-image: url(/images/BackgroundFirstTry.JPG);
   background-size: cover;
 }
 
